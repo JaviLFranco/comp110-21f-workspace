@@ -12,10 +12,17 @@ __author__ = "730521799"
 from random import randint
 
 
+value = randint(1, 10)
 print("Your fortune cookie says...")
 
-if randint(1, 10) > 5:
-    print("Isn't there something else you should be working on right now?")
+if value > 2:
+    if 5 > value > 2:
+        print("Isn't there something else you should be working on right now?")
+    if 8 > value >= 5:
+        print("The life of every woman or man - the heart of it - is pure and holy joy.")
+    if value >= 8:
+        print("Adversity is the parent of virtue.")
+
 else:
     print("The man who waits till tomorrow, misses the opportunities of today.")
 print("Now, go spread positive vibes!")
