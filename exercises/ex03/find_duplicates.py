@@ -13,7 +13,7 @@ while i < len(word):
 i = 0
 
 if count > 1:
-    print(count > 1)
+    print("Found duplicate: True")
 
 else:
     count = 0
@@ -24,7 +24,7 @@ else:
     i = 0
 
     if count > 1:
-        print(count > 1)
+        print("Found duplicate: True")
 
     else:
         count = 0
@@ -35,7 +35,7 @@ else:
         i = 0
 
         if count > 1:
-            print(count > 1)
+            print("Found duplicate: True")
         
         else:
             count = 0
@@ -46,7 +46,7 @@ else:
             i = 0
 
             if count > 1:
-                print(count > 1)
+                print("Found duplicate: True")
 
             else:
                 count = 0
@@ -57,7 +57,7 @@ else:
                 i = 0
 
                 if count > 1:
-                    print(count > 1)
+                    print("Found duplicate: True")
 
                 else:
                     count = 0
@@ -68,7 +68,7 @@ else:
                     i = 0
 
                     if count > 1:
-                        print(count > 1)
+                        print("Found duplicate: True")
 
                     else:
                         count = 0
@@ -79,7 +79,7 @@ else:
                         i = 0
 
                         if count > 1:
-                            print(count > 1)
+                            print("Found duplicate: True")
 
                         else:
                             count = 0
@@ -90,7 +90,7 @@ else:
                             i = 0
 
                             if count > 1:
-                                print(count > 1)
+                                print("Found duplicate: True")
 
                             else:
                                 count = 0
@@ -101,7 +101,7 @@ else:
                                 i = 0
 
                                 if count > 1:
-                                    print(count > 1)
+                                    print("Found duplicate: True")
 
                                 else:
                                     count = 0
@@ -112,7 +112,7 @@ else:
                                     i = 0
 
                                     if count > 1:
-                                        print(count > 1)
+                                        print("Found duplicate: True")
 
                                     else:
                                         count = 0
@@ -123,7 +123,7 @@ else:
                                         i = 0
 
                                         if count > 1:
-                                            print(count > 1)
+                                            print("Found duplicate: True")
 
                                         else:
                                             count = 0
@@ -134,7 +134,7 @@ else:
                                             i = 0
 
                                             if count > 1:
-                                                print(count > 1)
+                                                print("Found duplicate: True")
 
                                             else:
                                                 count = 0
@@ -145,7 +145,7 @@ else:
                                                 i = 0
 
                                                 if count > 1:
-                                                    print(count > 1)
+                                                    print("Found duplicate: True")
 
                                                 else:
                                                     count = 0
@@ -156,7 +156,7 @@ else:
                                                     i = 0
 
                                                     if count > 1:
-                                                        print(count > 1)
+                                                        print("Found duplicate: True")
 
                                                     else:
                                                         count = 0
@@ -167,7 +167,7 @@ else:
                                                         i = 0
 
                                                         if count > 1:
-                                                            print(count > 1)
+                                                            print("Found duplicate: True")
 
                                                         else:
                                                             count = 0
@@ -178,7 +178,7 @@ else:
                                                             i = 0
 
                                                             if count > 1:
-                                                                print(count > 1)
+                                                                print("Found duplicate: True")
                                                             
                                                             else:
                                                                 count = 0
@@ -189,7 +189,7 @@ else:
                                                                 i = 0
 
                                                                 if count > 1:
-                                                                    print(count > 1)
+                                                                    print("Found duplicate: True")
 
                                                                 else:
                                                                     count = 0
@@ -200,7 +200,7 @@ else:
                                                                     i = 0
 
                                                                     if count > 1:
-                                                                        print(count > 1)
+                                                                        print("Found duplicate: True")
 
                                                                     else:
                                                                         count = 0
@@ -211,7 +211,7 @@ else:
                                                                         i = 0
 
                                                                         if count > 1:
-                                                                            print(count > 1)
+                                                                            print("Found duplicate: True")
 
                                                                         else:
                                                                             count = 0
@@ -222,7 +222,7 @@ else:
                                                                             i = 0
 
                                                                             if count > 1:
-                                                                                print(count > 1)
+                                                                                print("Found duplicate: True")
 
                                                                             else:
                                                                                 count = 0
@@ -233,7 +233,7 @@ else:
                                                                                 i = 0
 
                                                                                 if count > 1:
-                                                                                    print(count > 1)
+                                                                                    print("Found duplicate: True")
 
                                                                                 else:
                                                                                     count = 0
@@ -244,7 +244,7 @@ else:
                                                                                     i = 0
 
                                                                                     if count > 1:
-                                                                                        print(count > 1)
+                                                                                        print("Found duplicate: True")
 
                                                                                     else:
                                                                                         count = 0
@@ -255,7 +255,7 @@ else:
                                                                                         i = 0
 
                                                                                         if count > 1:
-                                                                                            print(count > 1)
+                                                                                            print("Found duplicate: True")
 
                                                                                         else:
                                                                                             count = 0
@@ -266,7 +266,7 @@ else:
                                                                                             i = 0
 
                                                                                             if count > 1:
-                                                                                                print(count > 1)
+                                                                                                print("Found duplicate: True")
 
                                                                                             else:
                                                                                                 count = 0
@@ -277,7 +277,7 @@ else:
                                                                                                 i = 0
 
                                                                                                 if count > 1:
-                                                                                                    print(count > 1)
+                                                                                                    print("Found duplicate: True")
 
                                                                                                 else:
                                                                                                     count = 0
@@ -288,7 +288,7 @@ else:
                                                                                                     i = 0
 
                                                                                                     if count > 1:
-                                                                                                        print(count > 1)
+                                                                                                        print("Found duplicate: True")
 
                                                                                                     else:
                                                                                                         count = 0
@@ -299,7 +299,7 @@ else:
                                                                                                         i = 0
 
                                                                                                         if count > 1:
-                                                                                                            print(count > 1)
+                                                                                                            print("Found duplicate: True")
 
                                                                                                         else:
                                                                                                             count = 0
@@ -310,7 +310,7 @@ else:
                                                                                                             i = 0
 
                                                                                                             if count > 1:
-                                                                                                                print(count > 1)
+                                                                                                                print("Found duplicate: True")
 
                                                                                                             else:
                                                                                                                 count = 0
@@ -321,7 +321,7 @@ else:
                                                                                                                 i = 0
 
                                                                                                                 if count > 1:
-                                                                                                                    print(count > 1)
+                                                                                                                    print("Found duplicate: True")
                                                                                                                 
                                                                                                                 else:
                                                                                                                     count = 0
@@ -332,7 +332,7 @@ else:
                                                                                                                     i = 0
 
                                                                                                                     if count > 1:
-                                                                                                                        print(count > 1)
+                                                                                                                        print("Found duplicate: True")
 
                                                                                                                     else:
                                                                                                                         count = 0
@@ -343,7 +343,7 @@ else:
                                                                                                                         i = 0
 
                                                                                                                         if count > 1:
-                                                                                                                            print(count > 1)
+                                                                                                                            print("Found duplicate: True")
 
                                                                                                                         else:
                                                                                                                             count = 0
@@ -354,7 +354,7 @@ else:
                                                                                                                             i = 0
 
                                                                                                                             if count > 1:
-                                                                                                                                print(count > 1)
+                                                                                                                                print("Found duplicate: True")
 
                                                                                                                             else:
                                                                                                                                 count = 0
@@ -365,7 +365,7 @@ else:
                                                                                                                                 i = 0
 
                                                                                                                                 if count > 1:
-                                                                                                                                    print(count > 1)
+                                                                                                                                    print("Found duplicate: True")
 
                                                                                                                                 else:
                                                                                                                                     count = 0
@@ -376,7 +376,7 @@ else:
                                                                                                                                     i = 0
 
                                                                                                                                     if count > 1:
-                                                                                                                                        print(count > 1)
+                                                                                                                                        print("Found duplicate: True")
 
                                                                                                                                     else:
                                                                                                                                         count = 0
@@ -387,7 +387,7 @@ else:
                                                                                                                                         i = 0
 
                                                                                                                                         if count > 1:
-                                                                                                                                            print(count > 1)
+                                                                                                                                            print("Found duplicate: True")
 
                                                                                                                                         else:
                                                                                                                                             count = 0
@@ -398,7 +398,7 @@ else:
                                                                                                                                             i = 0
 
                                                                                                                                             if count > 1:
-                                                                                                                                                print(count > 1)
+                                                                                                                                                print("Found duplicate: True")
 
                                                                                                                                             else:
                                                                                                                                                 count = 0
@@ -409,7 +409,7 @@ else:
                                                                                                                                                 i = 0
 
                                                                                                                                                 if count > 1:
-                                                                                                                                                    print(count > 1)
+                                                                                                                                                    print("Found duplicate: True")
 
                                                                                                                                                 else:
                                                                                                                                                     count = 0
@@ -420,7 +420,7 @@ else:
                                                                                                                                                     i = 0
 
                                                                                                                                                     if count > 1:
-                                                                                                                                                        print(count > 1)
+                                                                                                                                                        print("Found duplicate: True")
 
                                                                                                                                                     else:
                                                                                                                                                         count = 0
@@ -431,7 +431,7 @@ else:
                                                                                                                                                         i = 0
 
                                                                                                                                                         if count > 1:
-                                                                                                                                                            print(count > 1)
+                                                                                                                                                            print("Found duplicate: True")
 
                                                                                                                                                         else:
                                                                                                                                                             count = 0
@@ -442,7 +442,7 @@ else:
                                                                                                                                                             i = 0
 
                                                                                                                                                             if count > 1:
-                                                                                                                                                                print(count > 1)
+                                                                                                                                                                print("Found duplicate: True")
 
                                                                                                                                                             else:
                                                                                                                                                                 count = 0
@@ -453,7 +453,7 @@ else:
                                                                                                                                                                 i = 0
 
                                                                                                                                                                 if count > 1:
-                                                                                                                                                                    print(count > 1)
+                                                                                                                                                                    print("Found duplicate: True")
 
                                                                                                                                                                 else:
                                                                                                                                                                     count = 0
@@ -464,7 +464,7 @@ else:
                                                                                                                                                                     i = 0
 
                                                                                                                                                                     if count > 1:
-                                                                                                                                                                        print(count > 1)
+                                                                                                                                                                        print("Found duplicate: True")
                                                                                                                                                                     
                                                                                                                                                                     else:
                                                                                                                                                                         count = 0
@@ -475,7 +475,7 @@ else:
                                                                                                                                                                         i = 0
 
                                                                                                                                                                         if count > 1:
-                                                                                                                                                                            print(count > 1)
+                                                                                                                                                                            print("Found duplicate: True")
 
                                                                                                                                                                         else:
                                                                                                                                                                             count = 0
@@ -486,7 +486,7 @@ else:
                                                                                                                                                                             i = 0
 
                                                                                                                                                                             if count > 1:
-                                                                                                                                                                                print(count > 1)
+                                                                                                                                                                                print("Found duplicate: True")
 
                                                                                                                                                                             else:
                                                                                                                                                                                 count = 0
@@ -497,7 +497,7 @@ else:
                                                                                                                                                                                 i = 0
 
                                                                                                                                                                                 if count > 1:
-                                                                                                                                                                                    print(count > 1)
+                                                                                                                                                                                    print("Found duplicate: True")
 
                                                                                                                                                                                 else:
                                                                                                                                                                                     count = 0
@@ -508,7 +508,7 @@ else:
                                                                                                                                                                                     i = 0
 
                                                                                                                                                                                     if count > 1:
-                                                                                                                                                                                        print(count > 1)
+                                                                                                                                                                                        print("Found duplicate: True")
 
                                                                                                                                                                                     else:
                                                                                                                                                                                         count = 0
@@ -519,7 +519,7 @@ else:
                                                                                                                                                                                         i = 0
 
                                                                                                                                                                                         if count > 1:
-                                                                                                                                                                                            print(count > 1)
+                                                                                                                                                                                            print("Found duplicate: True")
 
                                                                                                                                                                                         else:
                                                                                                                                                                                             count = 0
@@ -530,7 +530,7 @@ else:
                                                                                                                                                                                             i = 0
 
                                                                                                                                                                                             if count > 1:
-                                                                                                                                                                                                print(count > 1)
+                                                                                                                                                                                                print("Found duplicate: True")
 
                                                                                                                                                                                             else:
                                                                                                                                                                                                 count = 0
@@ -541,7 +541,7 @@ else:
                                                                                                                                                                                                 i = 0
 
                                                                                                                                                                                                 if count > 1:
-                                                                                                                                                                                                    print(count > 1)
+                                                                                                                                                                                                    print("Found duplicate: True")
 
                                                                                                                                                                                                 else:
                                                                                                                                                                                                     count = 0
@@ -552,8 +552,7 @@ else:
                                                                                                                                                                                                     i = 0
 
                                                                                                                                                                                                     if count > 1:
-                                                                                                                                                                                                        print(count > 1)
-
+                                                                                                                                                                                                        print("Found duplicate: True")
                                                                                                                                                                                                     else:
                                                                                                                                                                                                         count = 0
                                                                                                                                                                                                         while i < len(word):
@@ -563,7 +562,7 @@ else:
                                                                                                                                                                                                         i = 0
 
                                                                                                                                                                                                         if count > 1:
-                                                                                                                                                                                                            print(count > 1)
+                                                                                                                                                                                                            print("Found duplicate: True")
 
                                                                                                                                                                                                         else:
                                                                                                                                                                                                             count = 0
@@ -574,7 +573,7 @@ else:
                                                                                                                                                                                                             i = 0
 
                                                                                                                                                                                                             if count > 1:
-                                                                                                                                                                                                                print(count > 1)
+                                                                                                                                                                                                                print("Found duplicate: True")
 
                                                                                                                                                                                                             else:
-                                                                                                                                                                                                                print(count > 1)
+                                                                                                                                                                                                                print("Found duplicate: False")
