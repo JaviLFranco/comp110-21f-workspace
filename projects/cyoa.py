@@ -7,7 +7,6 @@ from random import randint
 TREE: str = '\U0001F332'
 
 points: int = 100
-life_o: int = 100
 power_o: int = 15
 attack_o: str = "Z"
 
@@ -26,10 +25,6 @@ def main() -> None:
     print(creature_name + " is a great name!")
     legs: int = int(input("How many legs does " + creature_name + " have? "))
     arms: int = int(input("How many arms does " + creature_name + " have? "))
-    speed: int = 0
-    strenght: int = 0
-    life_o: int = 100
-    attack_o: str = "Z"
     opponent_name: str = input("What is your opponent's name? ")
 
     if legs < 2:
@@ -56,8 +51,6 @@ def main() -> None:
 
     power: int = (speed + strenght)
 
-    points: int = 0
-
     if power < 10:
         points: int = 130
     
@@ -69,6 +62,8 @@ def main() -> None:
 
     print(creature_name + " has an attack power of " + str(power) + " and a life of " + str(points))
 
+    life_o: int = 100
+    
     while points > 0:
         if int(life_o) > 0:
             print("What attack do you want to use?")
