@@ -14,11 +14,11 @@ attack_o: str = "Z"
 player: str = input("What is your name? ")
 
 
-def greet(name):  
-    print("Welcome to Battle Creatures, ", name)
+def greet() -> None:  
+    print("Welcome to Battle Creatures, " + player)
 
 
-greet(player)
+greet()
 
 
 def main() -> None:
