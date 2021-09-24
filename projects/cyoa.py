@@ -11,10 +11,9 @@ life_o: int = 100
 power_o: int = 15
 attack_o: str = "Z"
 
-player: str = input("What is your name? ")
-
 
 def greet() -> None:  
+    player: str = input("What is your name? ")
     print("Welcome to Battle Creatures, " + player)
 
 
