@@ -24,7 +24,7 @@ def sub(x: list, y: int, z: int) -> list:
 
 
 def concat(x: list, y: list) -> list:
-    """Return list with only chosen values."""
+    """Sum both lists."""
     list_3: list = []
     for item in x:
         list_3.append(item)
