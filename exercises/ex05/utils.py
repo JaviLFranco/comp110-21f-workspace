@@ -17,10 +17,13 @@ def only_evens(x: list[int]) -> list[int]:
 def sub(x: list[int], y: int, z: int) -> list[int]:
     """Return list with only chosen values."""
     list_2: list[int] = []
-    for item in x:
-        if x[y] <= item <= x[z - 1]:
-            list_2.append(item)
-    return list_2
+    if len(x) == 0:
+        return list_2
+    else:
+        for item in x:
+            if x[y] <= item <= x[z - 1]:
+                list_2.append(item)
+        return list_2
 
 
 def concat(x: list[int], y: list[int]) -> list:
