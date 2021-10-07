@@ -5,27 +5,27 @@ __author__ = "730521799"
 # Define your functions below
 
 
-def only_evens(x: list) -> list:
+def only_evens(x: list[int]) -> list[int]:
     """Return list with only evens."""
-    list_1: list = []
+    list_1: list[int] = []
     for item in x:
         if (item % 2) == 0:
             list_1.append(item)
     return list_1
 
 
-def sub(x: list, y: int, z: int) -> list:
+def sub(x: list[int], y: int, z: int) -> list[int]:
     """Return list with only chosen values."""
-    list_2: list = []
+    list_2: list[int] = []
     for item in x:
         if x[y] <= item <= x[z - 1]:
             list_2.append(item)
     return list_2
 
 
-def concat(x: list, y: list) -> list:
+def concat(x: list[int], y: list[int]) -> list:
     """Sum both lists."""
-    list_3: list = []
+    list_3: list[int] = []
     for item in x:
         list_3.append(item)
     for item in y:
