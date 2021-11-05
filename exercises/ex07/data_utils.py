@@ -66,16 +66,14 @@ def head(x: dict[str, list[str]], y: int) -> dict[str, list[str]]:
     # Dict value
     result: dict[str, list[str]] = {}
 
-    dict_1: dict[str, list[str]] = x
+    list_1: list[str] = []
 
-    # Counter value
-    i: int = 0
-    while i >= (y - 1):
-        iterator = iter(dict_1)
-        first = next(iterator)
-        result[first] = dict_1[first]
-        del dict_1[first]
-        i = i + 1
+    for item in x:
+        # Counter value
+        i: int = 0
+        while i < y and i < len(x[item]):
+            list_1.append(x[item][i])
+            i = i + 1
     
     return result
 
@@ -83,20 +81,10 @@ def head(x: dict[str, list[str]], y: int) -> dict[str, list[str]]:
 def select(x: dict[str, list[str]], y: list[str]) -> dict[str, list[str]]:
     """Select columns"""
     result: dict[str, list[str]] = {}
-    i = 2
 
-    for column in x:
-        if y[0] in column:
-            if y[0] in result:
-                i = 1
-            else:
-                result[y[0]] = x[y[0]]
-        if y[1] in column:
-            if y[1] in result:
-                if i == 0:
-                    print(i)
-            else:
-                result[y[1]] = x[y[0]]
+    # Add item
+    for item in y:
+        result[item] = x[item]
     
     return result
         
