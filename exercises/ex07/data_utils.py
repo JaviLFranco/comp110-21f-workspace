@@ -70,7 +70,7 @@ def head(x: dict[str, list[str]], y: int) -> dict[str, list[str]]:
         while i < y and i < len(x[item]):
             list_1.append(x[item][i])
             i = i + 1
-            result[item] = list_1
+        result[item] = list_1
     
     return result
 
