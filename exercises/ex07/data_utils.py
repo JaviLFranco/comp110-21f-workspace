@@ -32,7 +32,6 @@ def read_csv_rows(filename: str) -> list[dict[str, str]]:
 # Creates a list
 def column_values(x: list[dict[str, str]], y: str) -> list[str]:
     """Function that creates a list with column values."""
-
     # Empty List
     list_1: list[str] = []
 
@@ -48,7 +47,6 @@ def column_values(x: list[dict[str, str]], y: str) -> list[str]:
 # Transform list in a table with columns
 def columnar(x: list[dict[str, str]]) -> dict[str, list[str]]:
     """List to columns."""
-
     # Dict value
     result: dict[str, list[str]] = {}
 
@@ -62,24 +60,23 @@ def columnar(x: list[dict[str, str]]) -> dict[str, list[str]]:
 
 def head(x: dict[str, list[str]], y: int) -> dict[str, list[str]]:
     """Number of columns only."""
-
     # Dict value
     result: dict[str, list[str]] = {}
 
-    list_1: list[str] = []
-
     for item in x:
+        list_1: list[str] = []
         # Counter value
         i: int = 0
         while i < y and i < len(x[item]):
             list_1.append(x[item][i])
             i = i + 1
+            result[item] = list_1
     
     return result
 
 
 def select(x: dict[str, list[str]], y: list[str]) -> dict[str, list[str]]:
-    """Select columns"""
+    """Select columns."""
     result: dict[str, list[str]] = {}
 
     # Add item
