@@ -126,6 +126,7 @@ def main() -> None:
 
                 print(str(creature_name) + " has " + str(points) + " life points.")
                 print(opponent_name + " has " + str(life_o) + " life points.")
+                seaborn.barplot(x=["Your life", "Your opponent's life"], y=[points, life_o])
 
             points_b = points
 
